@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Iske niche apna custom style */
+body {
+  background-color: #FAF9F6;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+/* src/index.css mein add karein */
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
