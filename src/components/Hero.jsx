@@ -12,7 +12,7 @@ const Hero = () => {
   const [cmsHeroData, setCmsHeroData] = useState(null);
 
   // Aapka backend URL direct yahan de raha hoon
-  const backendUrl = "https://aura-fashionbackend2-production.up.railway.app";
+  const backendUrl = "https://aura-fashionbackend2.vercel.app";
 
   // 2. Data Fetch karne ka function
   const fetchHeroData = async () => {
