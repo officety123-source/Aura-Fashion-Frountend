@@ -87,7 +87,6 @@ const PlaceOrder = () => {
         toast.info("Filhal sirf Cash on Delivery available hai.");
       }
     } catch (error) {
-      console.log(error);
       toast.error("Order process nahi ho saka. Server check karein.");
     }
   };
